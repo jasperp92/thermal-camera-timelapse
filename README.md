@@ -96,9 +96,5 @@ So I chose to limit it's FOV programmatically, by checking only the inner 4 rows
 
 ## Result
 
-<video src='[video](https://user-images.githubusercontent.com/72135430/188611171-d4755901-2093-43e9-9da6-6888e15faf0e.mp4)'/>
-
-<video src='[video](images/roteFenster_1.mp4)'/>
-
-![alt...](images/roteFenster_1.mp4)
+<video src='https://vimeo.com/manage/videos/679763089'/>
 
