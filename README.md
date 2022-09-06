@@ -5,6 +5,8 @@
 This is a small arduino project to create timelapse videos to capture the painting process.
 I really like to watch timelapse for digital art and paintings, e.g. photoshop, where you have a screen capture and therefore see no hand, only the magically appearing brush strokes. Usually when I want to see timlapses of classical oilpainting the painters body or hand is in between. Regardless the less meditative part seeing an annyoing hand swiping over the canvas, it's not good to use the video material for projection or other purposes - maybe you could even train your own style and painting development to an AI!?
 
+----
+
 ## Hardware
 
 - Arduino Uno
@@ -24,7 +26,7 @@ I really like to watch timelapse for digital art and paintings, e.g. photoshop, 
   - If necessary install the [BusIO Library](https://github.com/adafruit/Adafruit_BusIO)
 - AfterEffects or any other cutting software to make a timelapse out of frames
 
-
+----
 
 ## Wiring
 
@@ -54,6 +56,8 @@ Connecting the AMG8833 is quite simple. It uses an I2C protocol thus it needs to
 
 ![alt...](images/setup.jpg)
 
+----
+
 ## Programming
 
 ### Limiting the FOV of the AMG8833
@@ -78,9 +82,18 @@ So I chose to limit it's FOV programmatically, by checking only the inner 4 rows
 
 - **initialTemp()**
   caluclates the initial temperature of the environment and stores it to an array (8x8 = 64)
+  
 - **calcMaxTemp()**
   returns a float: the highest temperature of all pixels
+  
 - **calcAverageTemp(amount, interval)**
   returns a float: calculates the average temperature of all pixels in multiple test cycles. Parameter amount is the number of cycles, and interval the time between the cycles.
+  
 - **personInside()**
   returns a boolean: true, if one of each pixel is above the temperature threshold
+
+----
+
+## Result
+
+  <video src="C:\Users\JayPC\Documents\GitHub\thermal-camera-timelapse\images\roteFenster.mp4"></video>
