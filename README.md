@@ -96,4 +96,4 @@ So I chose to limit it's FOV programmatically, by checking only the inner 4 rows
 
 ## Result
 
-  <video src="C:\Users\JayPC\Documents\GitHub\thermal-camera-timelapse\images\roteFenster.mp4"></video>
+<video src='images/roteFenster.mp4'/>
