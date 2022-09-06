@@ -20,10 +20,9 @@ I really like to watch timelapse for digital art and paintings, e.g. photoshop, 
 ## Software
 
 - Arduino IDE
-  - Adafruit Serial Library
-  - Adafruit AMG8833 Library
-- Photoshop (to cut the Frames afterwards)
-- Adobe Premiere, or any other cutting software to make a timelapse out of frames.
+  - Load the Adafruit  [AMG8833 Library](https://github.com/adafruit/Adafruit_AMG88xx)
+  - If necessary install the [BusIO Library](https://github.com/adafruit/Adafruit_BusIO)
+- AfterEffects or any other cutting software to make a timelapse out of frames
 
 
 
@@ -56,13 +55,6 @@ Connecting the AMG8833 is quite simple. It uses an I2C protocol thus it needs to
 ![alt...](images/setup.jpg)
 
 ## Programming
-
-
-
-### Libraries
-
-- Load the Adafruit  [AMG8833 Library](https://github.com/adafruit/Adafruit_AMG88xx)
-- If necessary install the [BusIO Library](https://github.com/adafruit/Adafruit_BusIO)
 
 ### Limiting the FOV of the AMG8833
 
