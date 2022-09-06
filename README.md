@@ -96,9 +96,6 @@ So I chose to limit it's FOV programmatically, by checking only the inner 4 rows
 
 ## Result
 
-<video src='https://vimeo.com/manage/videos/679763089'/>
-
-
 
 https://user-images.githubusercontent.com/72135430/188613982-f0d9bab1-b28f-4c92-a2a1-ba16c9c7f24c.mp4
 
