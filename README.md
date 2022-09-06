@@ -15,7 +15,7 @@ I really like to watch timelapse for digital art and paintings, e.g. photoshop, 
 	1. green: indicating trigger
 	2. red: indicating person in sensor range
 -  2.5 mm jack remote release cable with 3 poles for the DSLR
-- (obviously) a DSLR. I used my Canon EOS 550D 
+- DSLR. I used my Canon EOS 550D 
 
 ## Software
 
